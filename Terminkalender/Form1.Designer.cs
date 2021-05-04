@@ -56,7 +56,7 @@
             this.addEvent.Name = "addEvent";
             this.addEvent.Size = new System.Drawing.Size(252, 33);
             this.addEvent.TabIndex = 0;
-            this.addEvent.Text = "Add event";
+            this.addEvent.Text = "Termin hinzufügen";
             this.addEvent.UseVisualStyleBackColor = true;
             this.addEvent.Click += new System.EventHandler(this.addEvent_Click);
             // 
@@ -153,7 +153,7 @@
             this.setCurrenltyTime.Name = "setCurrenltyTime";
             this.setCurrenltyTime.Size = new System.Drawing.Size(148, 23);
             this.setCurrenltyTime.TabIndex = 7;
-            this.setCurrenltyTime.Text = "set currently time";
+            this.setCurrenltyTime.Text = "Aktuelle Zeit";
             this.setCurrenltyTime.UseVisualStyleBackColor = true;
             this.setCurrenltyTime.Click += new System.EventHandler(this.setCurrenltyTime_Click);
             // 
@@ -173,7 +173,7 @@
             this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.helpToolStripMenuItem.Text = "Help";
+            this.helpToolStripMenuItem.Text = "Hilfe";
             this.helpToolStripMenuItem.Click += new System.EventHandler(this.helpToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem

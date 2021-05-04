@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.Timers;
-using System.Media;
-
 
 namespace Terminkalender
 {
@@ -25,8 +23,10 @@ namespace Terminkalender
                 if (DateTime.Now.ToString("dd/MM/yyyy") == listView1.Items[i].SubItems[0].Text &&
                     DateTime.Now.ToString("HH/mm/ss") == listView1.Items[i].SubItems[1].Text)
                 {
+                    Console.Beep(300, 100);
+                    Console.Beep(450, 100);
+                    Console.Beep(600, 100);
                     MessageBox.Show(listView1.Items[i].SubItems[2].Text);
-                    SystemSounds.Exclamation.Play();
                 }
             }
         }
@@ -57,12 +57,12 @@ namespace Terminkalender
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("If you have some questions about program, write me: and.shmerchuk@gmail.com");
+            MessageBox.Show("Bitte kontaktieren Sie mich bei eventuellen Fragen: and.shmerchuk@gmail.com");
         }
 
         private void textBox_TextChanged(object sender, EventArgs e)
         {
-            string textMessage = Console.ReadLine();
+
         }
 
         public void setCurrenltyTime_Click(object sender, EventArgs e)
