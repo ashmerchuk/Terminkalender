@@ -38,7 +38,6 @@
             this.chZeit = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.chEventbeschreibung = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.copyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.setCurrenltyTime = new System.Windows.Forms.Button();
@@ -128,16 +127,9 @@
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.copyToolStripMenuItem,
             this.deleteToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(108, 48);
-            // 
-            // copyToolStripMenuItem
-            // 
-            this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
-            this.copyToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
-            this.copyToolStripMenuItem.Text = "Copy";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(108, 26);
             // 
             // deleteToolStripMenuItem
             // 
@@ -193,7 +185,8 @@
             // 
             // timer1
             // 
-            this.timer1.Interval = 1000;
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 950;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
@@ -215,6 +208,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Terminkalender";
             this.contextMenuStrip1.ResumeLayout(false);
@@ -241,7 +235,6 @@
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem copyToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deleteToolStripMenuItem;
         private System.Windows.Forms.Timer timer1;
     }
