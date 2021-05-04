@@ -1,0 +1,9 @@
+F:\C#\Terminkalender\bin\Debug\Terminkalender.exe.config
+F:\C#\Terminkalender\bin\Debug\Terminkalender.exe
+F:\C#\Terminkalender\bin\Debug\Terminkalender.pdb
+F:\C#\Terminkalender\obj\Debug\Terminkalender.csprojAssemblyReference.cache
+F:\C#\Terminkalender\obj\Debug\Terminkalender.Form1.resources
+F:\C#\Terminkalender\obj\Debug\Terminkalender.Properties.Resources.resources
+F:\C#\Terminkalender\obj\Debug\Terminkalender.csproj.GenerateResource.cache
+F:\C#\Terminkalender\obj\Debug\Terminkalender.exe
+F:\C#\Terminkalender\obj\Debug\Terminkalender.pdb
